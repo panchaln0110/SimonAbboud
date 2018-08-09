@@ -24,6 +24,10 @@ H6: 12 Lato
     width: 100%;
     height: 100%;
 }
+.change-ws >a.dropdown-item {
+    white-space: inherit;
+    z-index: 1000;
+}
 
 article,
 aside,
@@ -35,7 +39,7 @@ header,
 hgroup,
 main,
 section {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .w-60 {
@@ -540,6 +544,9 @@ h6 {
     /*    color: white;*/
     height: 40px;
     width: 200px;
+}
+.acn-btn-size-ss{
+    width: 340px;
 }
 
 .acn-btn-size-SA {
@@ -1278,14 +1285,12 @@ a.foot-links {
     color: white;
 }
 
-
 div.col-sm-2.col-6 {
     padding: 0;
 }
 
 .heightwhy {
     height: 49px;
-    overflow: hidden;
 }
 
 .l-banner-btn-size {
@@ -1406,7 +1411,9 @@ div.col-sm-2.col-6 {
     .bg-ss-color{
         background-color: rgba(0,40,85,0.3);
     }
-    
+    .heightPFK{
+        height: 400px;
+    }
     .align-l {
         position: relative;
         left: 110px;
@@ -1435,6 +1442,9 @@ div.col-sm-2.col-6 {
         height: 85px;
     }
     .d-hidem {
+        display: none;
+    }
+    .d-Dnone1{
         display: none;
     }
     .text-rightss{
@@ -1770,6 +1780,9 @@ div.col-sm-2.col-6 {
     .d-Dnone {
         display: block;
     }
+    .d-Dnone1{
+        display: none;
+    }
     .mt--18 {
         margin-left: -18rem;
     }
@@ -2068,8 +2081,8 @@ div.col-sm-2.col-6 {
         margin-bottom: 75px;
     }
     .l-banner-position-PFK {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin-top: 115px;
+    margin-bottom: 115px;
     }
     .l-banner-position-GB {
         margin-top: 75px;
